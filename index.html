@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>one-sprint delivery</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+<style media="screen">
+  .carousel {
+    width: 100%;
+
+  }
+
+  .carousel-cell::before {
+    display: block;
+  }
+</style>
+
+<body>
+  <!--nav-->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class=" container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/clipart1406394.png" height="50" width="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sec">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#brand" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Brand portfolio
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">copper cane</a></li>
+              <li><a class="dropdown-item" href="#">mitibuish</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li><hr>
+              <li><a class="dropdown-item" href="#">Addidas</a></li>
+              <li><a class="dropdown-item" href="#">Lee-cooper</a></li>
+          </ul>>
+          <li class="nav-item">
+            <a class="nav-link" href="#special" tabindex="-1" aria-disabled="true">our speciality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search your brand" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/main-image.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-md-block">
+            <h1>Distributing to every<br>
+              corner of west africa</h1>
+            <ul>
+              <li><a class="oval" href="#">Contact us</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/main2-image.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-md-block">
+            <h1>We maintain the<br>
+             products like an child</h1>
+            <ul>
+              <li><a class="oval" href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/main3-image.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-md-block">
+            <h1>Stored and maintained<br>
+              by digital sorces</h1>
+            <ul>
+              <li><a class="oval" href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header><br><br>
+  <hr>
+  <section id="sec">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/post1-truck.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Distribution across West africa</p>
+            <h1 class="card-title">We gurantee to <br>deliver guarantee products on time</h1>
+            <p class="card-text">on spirit is on a mission to fullfill of needs of all the customer from Hotels,<br>
+              Restaurant Cafes to modern trade supplying global brands<br><br></p>
+            <ul>
+              <li><a href="#">Know more<span class="fas fa-arrow-right"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Post2-delivery-boy.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Distribution across West africa</p>
+            <h1 class="card-title">We gurantee to <br>deliver guarantee products on time</h1>
+            <p class="card-text">on spirit is on a mission to fullfill of needs of all the customer from Hotels,<br>
+              Restaurant Cafes to modern trade supplying global brands<br><br></p>
+            <ul>
+              <li><a href="#">Know more<span class="fas fa-arrow-right"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div><br><br>
+    <hr>
+  </section>
+  <article id="brand">
+    <div>
+      <p class="text-center">What We disrtibute</p>
+      <h2 class="text-center">Serving the Premium of products<br>you can ever ask</h2><br><hr>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <h2>Wines & Sprits</h2><br><br>
+            <h4>we have a portfolio over 500 wine
+              and spirit brands deliver through<br>
+              <h4>modern ,ethical supply chain <br>with exeptional services</h4><br>
+
+          </div>
+          <div class="col-sm-8">
+            <div class="client-wrap">
+              <h1>Exclusive Brands</h1>
+              <hr>
+              <div class="client-in">
+                <ul>
+                  <li>
+                    <img src="images/wine-1_300x207.png">
+                    <img src="images/wine1-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine2_300x207.jpg">
+                    <img src="images/wine2-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-3_300x207.jpg">
+                    <img src="images/wine3-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-4_300x207.png">
+                    <img src="images/wine4-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-3_300x207.jpg">
+                    <img src="images/wine3-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-5_300x207.jpg">
+                    <img src="images/wine5-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-1_300x207.png">
+                    <img src="images/wine1-ba_300x207.jpg">
+                  </li>
+                  <li>
+                    <img src="images/wine-7_300x207.jpg">
+                    <img src="images/wine7-ba_300x207.jpg">
+                  </li>
+                </ul>
+              </div>
+              
+
+            </div>
+          </div>
+
+        </div>
+      </div><br><br>
+      <hr>
+  </article>
+  <aside id="special">
+    <div class="container counter-section">
+      <div class="row text-center">
+        <div class=" col counter-box">
+          <div class="icon-box"><i class="fas fa-industry"></i></div>
+          <span class="counter">15</span><span class="symbol">+</span>
+          <p>years of industry</p>
+        </div>
+        <div class="col counter-box">
+          <div class="icon-box"><i class="fas fa-people-arrows"></i></div>
+          <p class="counter">589</p>
+          <p>Distribution brands</p>
+        </div>
+        <div class="col counter-box">
+          <div class="icon-box"><i class="fas fa-parachute-box"></i></i></div>
+          <span class="counter">1000</span><span class="symbol">+</span>
+          <p>suppliers</p>
+        </div>
+        <div class="col counter-box">
+          <div class="icon-box"><i class="fas fa-users"></i></div>
+          <p class="counter">72</p>
+          <p>peoples</p>
+        </div>
+      </div>
+    </div>
+<hr>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>We connect <br>across West Africa</h2><br>
+          <h4>we have a portfolio over 500 <br>wine
+            and spirit brands deliver through<br>
+            modern ,ethical supply chain</h4><br><br>
+          <ul>
+            <li> <a href=#>Know More <span class="fas fa-arrow-right"> </a></span></li>
+          </ul>
+        </div>
+        <div class="col-8 map">
+
+          <img src="images/post4-west-afirca-outline-map.png">
+          <span class="marker1">Niger</span>
+          <span class="marker2">Mali</span>
+          <!--<span class="marker3">Guinea</span>-->
+          <span class="marker4">Ghana</span>
+          <span class="marker5">Benia</span>
+          <span class="marker6">Nigeria</span>
+          <!--<span class="marker7">Liberia</span>-->
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <br><br><hr>
+
+  <summary>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+          <p> Our network of</p>
+
+          <h2>Un Paralled<br> distribution</h2><br>
+
+        </div>
+        <div class="col">
+          <p class="summ-txt"> over the past 15 years of trade we have achieved a mile<br>seemless end to end supply
+            chain of products
+            meeting<br>the demands of HoReGa</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+
+      <div class="carousel-cell">
+        <img src="images/Inventory-Management_LR-1920x1000_800x533.jpg" style="padding-left:20px;">
+      </div>
+      <div class="carousel-cell" style="padding-left: 20px;">
+        <img src="images/stock4_800x553.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="images/stock5_800x553.jpg" style="padding-left:20px;">
+      </div>
+      <div class="carousel-cell">
+        <img src="images/stock6_800x553.jpg" style="padding-left:20px;">
+      </div>
+
+    </div><br><br>
+    <hr>
+
+  </summary>
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-4">
+
+        <h2 class="foot-txt1">TESTIMONIALS</h2><br>
+
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col foot-txt2">
+            <h2>Selected wine varieties, beautiful<br>landscapes and friendly atmosphere<br>
+              who appreciate life</h2><br>
+            <div>
+              <p>Peter Bowman</p>
+            </div>
+            <div>
+              <p>Globul Head-Heritage spirits</p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+  <footer id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Let us tell your brand<br>
+                across west africa</h2><br><br>
+              <ul>
+                <li><a class="oval1" href="#"> Contact us</a></li>
+              </ul>
+            </div><hr>
+            <div class="col text-center">
+              <p class="adress-txt">123,DUNBERRY STREET,<br>HIGH STREET,<br>AFRICA.</p>
+              <br>
+              <ul>
+              <li><a href="#">(+123) 080 754 321</a></li><br>
+              <li><a href="#">sales@onespirit.co.ng</a></li><br>
+</ul>
+            </div>
+          </div>
+
+        </div>
+
+
+  </footer>
+
+  <!-- counter-->
+  
+</body>
+
+</html>
