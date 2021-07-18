@@ -27,6 +27,14 @@ nav ul li{
 .navbar-brand{
     color: green;
 }
+.carousel {
+    width: 100%;
+
+  }
+
+  .carousel-cell::before {
+    display: block;
+  }
 
 .oval{
     color: indigo;
@@ -35,7 +43,11 @@ nav ul li{
     text-decoration: none;
     font-size: 23px;
     padding: 1%;
+    list-style: none;
 
+}
+header ul li{
+    list-style: none;
 }
 header{
     font-family: Georgia, serif;
@@ -74,6 +86,20 @@ article{
 }
 aside{
     font-family: Georgia, serif;
+}
+aside ul li{
+    list-style: none;
+    margin-left: -6%;
+    
+}
+aside ul li a{
+    text-decoration: none;
+    color : rgba(255, 0, 0, 0.479);
+    border: 3px solid rgba(255, 0, 0, 0.479) ;
+    padding-left: 15px 70px;
+    font-size: 18px;
+   margin-left: 0;
+   border-radius: 13%;
 }
 summary{
     font-family: Georgia, serif;
@@ -248,6 +274,7 @@ height: 100%;
  
 @media only screen and (max-width:640px)
 {
+    
    .map{
 
        position: relative;
@@ -371,14 +398,7 @@ footer ul li a{
     padding: 6px 15px;color: #fff;
     border-radius: 20px;
 }
-.address-text{
-    text-align: center;
-}
 
-/* footer ul li a.active{
-    background: #fff;
-    color:#2b1055;
-}*/
 @media only screen and (min-width:640px)and(max-width:792px) 
 {
    .map{
